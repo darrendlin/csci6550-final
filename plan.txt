@@ -1,0 +1,16 @@
+plan:
+
+- start off with a seed summoner(s) in summoner list
+
+1. get a list of ALL unique summoner ids
+  - iterate through summoner list:
+    - iterate through all summoners in same league as summoner:
+      - if summoner does not exist in database:
+        - append summoner id to list
+    - iterate through all match history:
+      - if match does not exist in database:
+        - download match / put match id in database
+        - iterate through all summoners in match:
+          - if summoner does not exist in database:
+            - append summoner id to list
+2. iterate through all summoner ids & record current rank DAILY

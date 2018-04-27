@@ -1,0 +1,26 @@
+{
+  "name": "csci6500-final",
+  "version": "1.0.0",
+  "description": "csci6500-final",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrendlin/csci6550-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrendlin/csci6550-final/issues"
+  },
+  "homepage": "https://github.com/darrendlin/csci6550-final#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "fast-csv": "^2.4.1",
+    "kayn": "^0.8.10",
+    "mysql": "^2.15.0"
+  }
+}

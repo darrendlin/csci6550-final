@@ -1,8 +1,9 @@
 import csv
 import time
 from riotwatcher import RiotWatcher
+from requests import HTTPError
 
-watcher = RiotWatcher('aaa')
+watcher = RiotWatcher('RGAPI-6913a3c6-51c9-4b73-9454-3b9638454cc7')
 
 def printProgress(players, index):
   print('Players: {:d}/{:d} ({:.2%})'.format(index, len(players), index/len(players)))
